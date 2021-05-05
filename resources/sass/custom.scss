@@ -1,0 +1,28 @@
+
+.oneproofdx {
+    header{
+        display: flex;
+        height: 200px;
+        padding: 30px;
+        .logo {
+            //img {
+
+            //}
+            margin-right: 30px;
+        }   
+        nav {
+            flex: 1;
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    a {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
